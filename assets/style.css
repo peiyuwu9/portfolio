@@ -1,3 +1,12 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+}
+
+.bio {
+    font-family: 'Caveat', cursive;
+}
+
 #banner {
     width: 100%;
 }
@@ -6,9 +15,18 @@ p, li {
     font-size: 2rem;
 }
 
+#bio {
+    font-size: 3rem;
+}
+
 .profile {
     position: relative;
     top: -15vh;
+}
+
+.bio, .project, .education, .working, .photo {
+    position: relative;
+    top: -5vh;
 }
 
 #profile {
@@ -33,6 +51,10 @@ p, li {
 
 .profile-icon:hover {
     cursor: pointer;
+}
+
+.bio {
+    margin: 0 50px;
 }
 
 .project, .education, .working {
