@@ -277,4 +277,9 @@ footer a:hover {
     .project-preview {
         margin: 50px 0;
     }
+
+    .photo {
+        margin-bottom: 50px;
+    }
+    
 }
