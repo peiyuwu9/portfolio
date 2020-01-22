@@ -3,8 +3,9 @@ $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
 
     $(".up-arrow").on("click", function () {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
+        $("html, body").animate({
+            scrollTop: 0
+        }, 800);
     })
 
     $(".fa-envelope").on("click", function () {
