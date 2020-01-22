@@ -105,9 +105,13 @@ p, li {
 }
 
 .profile-icon {
-    margin: 0 5px;
+    margin: -25px 5px 0px 5px;
     font-size: 3em;
     color: #333;
+}
+
+.home-made-icon {
+    border-radius: 3px;
 }
 
 .profile-icon:hover {
@@ -116,6 +120,7 @@ p, li {
 
 .bio {
     margin: 0 50px;
+    margin-bottom: 50px;
 }
 
 .project, .education, .working {
@@ -161,7 +166,7 @@ p, li {
     color: #00d8ff;
 }
 
-.project-icon {
+.tool-icon {
     margin: 0 5px;
 }
 
@@ -174,6 +179,9 @@ p, li {
     font-weight: lighter;
 }
 
+.photo-text {
+    text-align: center;
+}
 .carousel-inner img {
     /* -webkit-filter: grayscale(90%);
     filter: grayscale(90%);*/ /* make all photos black and white */
@@ -181,9 +189,6 @@ p, li {
     margin: auto;
 }
 
-.photo-text {
-    text-align: center;
-}
 
 .carousel-caption {
     color: #fff !important;
@@ -206,7 +211,7 @@ footer a:hover {
 
 .profile-icon-footer {
     color: #fff;
-    margin: 0 10px;
+    margin: -25px 5px 0px 5px;
     font-size: 3em;
 }
 
@@ -256,22 +261,20 @@ footer a:hover {
 
 @media screen and (max-width: 767.98px) {
 
-    .enter-text, .profile, .bio, .project, .education, .working, .photo {
+    .enter-text, .scroll-down, .profile, .bio, .project, .education, .working, .photo {
         position: relative;
         top: 0;
     }
 
     .enter-text-title {
-        color: #333;
-    }
-
-    .scroll-down {
-        display: none;
-        position: relative;
-        top: 0;
+        color: #333333;
     }
 
     h1 {
         text-align: center;
+    }
+
+    .project-preview {
+        margin: 50px 0;
     }
 }

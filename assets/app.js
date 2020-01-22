@@ -8,7 +8,7 @@ $(document).ready(function () {
         }, 800);
     })
 
-    $(".fa-envelope").on("click", function () {
+    $(".envelope").on("click", function () {
         // Create new element
         const el = document.createElement("input");
         // Set value (string to be copied)
