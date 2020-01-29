@@ -32,12 +32,8 @@ p, li {
 
 .enter-text {
     text-align: center;
-    position: relative;
-    top: -24em;
-}
-
-.enter-text-title {
-    color: #fff;
+    transform: translate(0, -300px);
+    color: #ffffff;
 }
 
 .arrow-1 {
@@ -257,9 +253,6 @@ footer a:hover {
 
     .enter-text {
         display: none;
-    }
-
-    .enter-text-title {
         color: #333333;
     }
 
