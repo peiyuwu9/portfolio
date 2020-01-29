@@ -30,51 +30,6 @@ p, li {
     width: 100%;
 }
 
-.enter-text {
-    text-align: center;
-    transform: translate(0, -300px);
-    color: #ffffff;
-}
-
-.arrow-1 {
-    animation-name: arrow;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-.arrow-2 {
-    animation-name: arrow;
-    animation-duration: 1s;
-    animation-delay: 0.25s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-.arrow-3 {
-    animation-name: arrow;
-    animation-duration: 1s;
-    animation-delay: 0.5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-@keyframes arrow {
-    0%   {opacity: 1;}
-    25%  {opacity: 0.75;} 
-    50%  {opacity: 0.5;}
-    75%  {opacity: 0.25;} 
-    100% {opacity: 0;}
-}
-
-@-webkit-keyframes arrow {
-    0%   {opacity: 1;}
-    25%  {opacity: 0.75;} 
-    50%  {opacity: 0.5;}
-    75%  {opacity: 0.25;} 
-    100% {opacity: 0;}
-} 
-
 .profile, .bio, .project, .education, .working, .photo {
     position: relative;
     top: -5vh;
@@ -251,9 +206,8 @@ footer a:hover {
 
 @media screen and (max-width: 767.98px) {
 
-    .enter-text {
+    .blank {
         display: none;
-        color: #333333;
     }
 
     h1 {
